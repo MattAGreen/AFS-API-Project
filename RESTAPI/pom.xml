@@ -15,6 +15,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+      	<dependency>
+	    <groupId>com.github.MattAGreen</groupId>
+	    <artifactId>AFS-API-Project</artifactId>
+	    <version>1</version>
+	</dependency>
+	<dependency>
+	   <groupId>afs.api</groupId>
+	    <artifactId>restapi-api</artifactId>
+ 		 <version>0.0.1-SNAPSHOT</version>
+	</dependency>
     </dependencies>
 
     <properties>
@@ -45,6 +55,10 @@
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
         </repository>
+        <repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>

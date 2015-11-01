@@ -21,5 +21,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    	<dependency>
+	   <groupId>afs.api</groupId>
+	    <artifactId>restapi-api</artifactId>
+ 		 <version>0.0.1-SNAPSHOT</version>
+	</dependency>
   </dependencies>
+  
+  <repositories>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+       </repositories>
 </project>
