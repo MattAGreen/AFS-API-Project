@@ -2,9 +2,12 @@ package afs.api.restapi.impl;
 
 import java.util.HashMap;
 
+import org.springframework.stereotype.Repository;
+
 import afs.api.restapi.api.Person;
 import afs.api.restapi.dao.PersonDao;
 
+@Repository("personDao")
 public class PersonDaoImpl implements PersonDao {
 
 private boolean activeDatabase=false;

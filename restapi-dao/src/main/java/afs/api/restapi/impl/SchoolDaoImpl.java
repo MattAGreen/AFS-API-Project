@@ -2,9 +2,12 @@ package afs.api.restapi.impl;
 
 import java.util.HashMap;
 
+import org.springframework.stereotype.Repository;
+
 import afs.api.restapi.api.School;
 import afs.api.restapi.dao.SchoolDao;
 
+@Repository("schoolDao")
 public class SchoolDaoImpl implements SchoolDao {
  
 	private boolean activeDatabase=false;

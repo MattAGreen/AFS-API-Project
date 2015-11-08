@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.websocket.server.PathParam;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +19,7 @@ import afs.api.restapi.service.PersonService;
 @RequestMapping("/person")
 public class PersonRestController {
 
+	@Autowired
 	PersonService personService;
     
     @RequestMapping(value="/{id}" , method = RequestMethod.GET)

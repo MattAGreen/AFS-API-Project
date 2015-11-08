@@ -26,5 +26,21 @@
 	    <artifactId>restapi-api</artifactId>
  		 <version>0.0.1-SNAPSHOT</version>
 	</dependency>
+	<dependency>
+	 <groupId>afs.api</groupId>
+  <artifactId>restapi-dao</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-core</artifactId>
+	<version>4.0.9.RELEASE</version>
+</dependency>
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>4.0.9.RELEASE</version>
+</dependency>
+
   </dependencies>
 </project>

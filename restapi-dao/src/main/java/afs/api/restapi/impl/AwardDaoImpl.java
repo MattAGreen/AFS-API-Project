@@ -2,9 +2,12 @@ package afs.api.restapi.impl;
 
 import java.util.HashMap;
 
+import org.springframework.stereotype.Repository;
+
 import afs.api.restapi.api.Award;
 import afs.api.restapi.dao.AwardDao;
 
+@Repository("awardDao")
 public class AwardDaoImpl implements AwardDao {
 
 private boolean activeDatabase=false;
